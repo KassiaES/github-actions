@@ -11,3 +11,12 @@ jobs:
       - name: Run a multi-line script
         run: Yes, I can!
           
+  again:  
+    runs-on: ubuntu-latest 
+    steps:
+      - name: think about
+        run: echo battle    
+      - name: Run a one-line script
+        run: echo It will be?
+      - name: Run a multi-line script
+        run: Yes, I can!
