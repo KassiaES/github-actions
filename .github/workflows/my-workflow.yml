@@ -1,22 +1,36 @@
-name: Meu primeiro workflow
-on: workflow_dispatch 
+name: Meu primeiro Workflow - GFT QA
+on: workflow_dispatch
 jobs:
-  elements:  
-    runs-on: ubuntu-latest 
+  ingredientes:
+    runs-on: ubuntu-latest
     steps:
-      - name: think about
-        run: echo battle    
-      - name: Run a one-line script
-        run: echo It will be?
-      - name: Run a multi-line script
-        run: Yes, I can!
-          
-  again:  
-    runs-on: ubuntu-latest 
+      - name: Pegar Leite
+        run: echo "Usar leite integral na GFT QA"
+      - name: Pegar Farinha
+        run: echo "Usar Farinha Dona Benta"
+        
+  misturar:
+    runs-on: ubuntu-latest
     steps:
-      - name: think about
-        run: echo battle    
-      - name: Run a one-line script
-        run: echo It will be?
-      - name: Run a multi-line script
-        run: Yes, I can!
+      - name: Pegar Leite
+        run: echo "Usar leite integral na GFT QA"
+  Bater-na-batedeira:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pegar Leite
+        run: echo "Usar leite integral na GFT QA"
+  UNTAR-FORMA:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pegar Leite
+        run: echo "Usar leite integral na GFT QA"
+  COLOCAR-MASSA:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pegar Leite
+        run: echo "Usar leite integral na GFT QA"
+  FAZER-RECHEIO:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pegar Leite
+        run: echo "Usar leite integral na GFT QA"
