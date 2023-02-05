@@ -1,18 +1,13 @@
-# This is a basic workflow
-
 name: Meu primeiro workflow
-
-on: workflow_dispatch
- 
+on: workflow_dispatch 
 jobs:
-  elements:
-  build:   
+  elements:  
     runs-on: ubuntu-latest 
     steps:
       - name: think about
         run: echo battle    
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: echo It will be?
       - name: Run a multi-line script
-        run: echo it will be?
+        run: Yes, I can!
           
