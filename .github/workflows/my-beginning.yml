@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest 
     steps:
       - name: think about
-        run: battle    
+        run: echo battle    
       - name: Run a one-line script
         run: echo Hello, world!
       - name: Run a multi-line script
