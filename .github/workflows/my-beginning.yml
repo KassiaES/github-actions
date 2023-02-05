@@ -1,5 +1,5 @@
 name: Meu primeiro workflow
-on: workflow_dispatch 
+on: workflows_dispatch 
 jobs:
   elements:  
     runs-on: ubuntu-latest 
